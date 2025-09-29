@@ -6,7 +6,7 @@
     <title>Magang.in - Bangun Karirmu, Mulai dari Magang</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -25,7 +25,7 @@
 },
                     fontFamily: {
                         heading: ['Poppins', 'sans-serif'],
-                        body: ['Inter', 'sans-serif']
+                        body: ['Poppins', 'sans-serif']
                     }
                 }
             }
@@ -36,7 +36,7 @@
             scroll-behavior: smooth;
         }
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         #authModal {
             backdrop-filter: blur(5px);
@@ -86,10 +86,10 @@ from { transform: translateY(50px); opacity: 0; }
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#search" class="text-gray-600 hover:text-primary transition">Cari Magang</a>
-                    <a href="#why" class="text-gray-600 hover:text-primary transition">Keunggulan</a>
-                    <a href="#companies" class="text-gray-600 hover:text-primary transition">Perusahaan</a>
-                    <a href="#stories" class="text-gray-600 hover:text-primary transition">Kisah Sukses</a>
+                    <a href="#search" class="text-gray-600 hover:text-primary transition font-bold">Cari Magang</a>
+                    <a href="#why" class="text-gray-600 hover:text-primary transition font-bold">Keunggulan</a>
+                    <a href="#companies" class="text-gray-600 hover:text-primary transition font-bold">Perusahaan</a>
+                    <a href="#stories" class="text-gray-600 hover:text-primary transition font-bold">Kisah Sukses</a>
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="#" class="px-4 py-2 rounded-md text-primary border border-primary hover:bg-primary hover:text-white transition nav-login">Masuk</a>
@@ -103,7 +103,7 @@ from { transform: translateY(50px); opacity: 0; }
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="md:flex items-center justify-between">
                 <div class="md:w-1/2 fade-in text-white">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">Langkah Awal <span class="text-secondary">Karir Sukses</span> Dimulai dari Magang</h1>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">Langkah Awal <span class="text-secondary">Karir Sukses</span> Dimulai dari <span class="text-secondary">Magang</span></h1>
                     <p class="text-lg md:text-xl text-white/90 mb-8">Temukan pengalaman magang terbaik yang sesuai dengan passion dan jurusanmu. Bangun jaringan profesional sejak dini!</p>
                     <div class="flex flex-wrap gap-4">
                         <a href="#" class="px-8 py-4 rounded-lg bg-secondary text-white hover:bg-secondary-dark transition shadow-lg flex items-center">
@@ -273,7 +273,7 @@ from { transform: translateY(50px); opacity: 0; }
     <section id="why" class="py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12 fade-in">
-                <h2 class="text-3xl font-bold text-dark mb-4">Kenapa Memilih Magang.in?</h2>
+                <h2 class="text-3xl font-bold text-dark mb-4">Kenapa Harus Magang.in?</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">Platform terbaik untuk menghubungkan pelajar dengan perusahaan terbaik</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 slide-up">
@@ -316,6 +316,8 @@ from { transform: translateY(50px); opacity: 0; }
                 <h2 class="text-3xl font-bold text-dark">Magang Populer</h2>
                 <a href="#" class="text-primary hover:underline">Lihat Semua</a>
             </div>
+            
+            <!-- Grid Container -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 slide-up">
                 <!-- Internship Card 1 -->
                 <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
@@ -376,6 +378,74 @@ from { transform: translateY(50px); opacity: 0; }
                         <button class="w-full py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition">Apply Sekarang</button>
                     </div>
                 </div>
+                
+                <!-- Internship Card 4 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="http://static.photos/business/200x200/2" alt="Company Logo" class="w-12 h-12 rounded-full object-cover mr-4">
+                            <div>
+                                <h3 class="font-bold text-lg">Data Analyst</h3>
+                                <p class="text-gray-600">Data Corp</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Surabaya</span>
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">4 Bulan</span>
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Rp 2.2jt/bln</span>
+                        </div>
+                        <p class="text-gray-600 mb-4 line-clamp-2">Bergabunglah dengan tim data untuk menganalisis trend pasar dan memberikan insight bisnis yang valuable.</p>
+                        <button class="w-full py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition">Apply Sekarang</button>
+                    </div>
+                </div>
+                
+                <!-- Internship Card 5 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="http://static.photos/technology/200x200/3" alt="Company Logo" class="w-12 h-12 rounded-full object-cover mr-4">
+                            <div>
+                                <h3 class="font-bold text-lg">Backend Developer</h3>
+                                <p class="text-gray-600">StartupTech</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Yogyakarta</span>
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">6 Bulan</span>
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Rp 3jt/bln</span>
+                        </div>
+                        <p class="text-gray-600 mb-4 line-clamp-2">Pelajari pengembangan API dan database management dalam lingkungan startup yang dinamis.</p>
+                        <button class="w-full py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition">Apply Sekarang</button>
+                    </div>
+                </div>
+                
+                <!-- Internship Card 6 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="http://static.photos/design/200x200/4" alt="Company Logo" class="w-12 h-12 rounded-full object-cover mr-4">
+                            <div>
+                                <h3 class="font-bold text-lg">Graphic Designer</h3>
+                                <p class="text-gray-600">Creative Agency</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Bali</span>
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">3 Bulan</span>
+                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Rp 1.5jt/bln</span>
+                        </div>
+                        <p class="text-gray-600 mb-4 line-clamp-2">Kembangkan skill desain grafis untuk berbagai media dengan mentor berpengalaman di industri kreatif.</p>
+                        <button class="w-full py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition">Apply Sekarang</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Selengkapnya Button -->
+            <div class="text-center mt-10">
+                <a href="#" class="inline-flex items-center px-8 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition shadow-lg">
+                    <span class="mr-2">Selengkapnya</span>
+                    <i data-feather="arrow-right" class="w-5 h-5"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -465,24 +535,17 @@ from { transform: translateY(50px); opacity: 0; }
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 slide-up">
                 <div class="text-center">
-                    <div class="text-5xl font-bold text-primary mb-2" data-count="500">0</div>
+                    <div class="text-5xl font-bold text-primary mb-2" data-count="500">0+</div>
                     <p class="text-gray-600">Peluang Magang</p>
                 </div>
                 <div class="text-center">
-                    <div class="text-5xl font-bold text-primary mb-2" data-count="200">0</div>
-                    <p class="text-gray-600">Perusahaan</p>
+                    <div class="text-5xl font-bold text-primary mb-2" data-count="200">0+</div>
+                    <p class="text-gray-600">Perusahaan Partner</p>
                 </div>
                 <div class="text-center">
-                    <div class="text-5xl font-bold text-primary mb-2" data-count="1000">0</div>
-                    <p class="text-gray-600">Siswa Terhubung</p>
+                    <div class="text-5xl font-bold text-primary mb-2" data-count="3000">0+</div>
+                    <p class="text-gray-600">Pelajar Terdaftar</p>
                 </div>
-            </div>
-            <div class="flex flex-wrap justify-center gap-8 slide-up">
-                <img src="http://static.photos/technology/120x60/1" alt="Company Logo" class="h-8 opacity-70 hover:opacity-100 transition">
-                <img src="http://static.photos/finance/120x60/1" alt="Company Logo" class="h-8 opacity-70 hover:opacity-100 transition">
-                <img src="http://static.photos/retail/120x60/1" alt="Company Logo" class="h-8 opacity-70 hover:opacity-100 transition">
-                <img src="http://static.photos/education/120x60/1" alt="Company Logo" class="h-8 opacity-70 hover:opacity-100 transition">
-                <img src="http://static.photos/health/120x60/1" alt="Company Logo" class="h-8 opacity-70 hover:opacity-100 transition">
             </div>
         </div>
     </section>
@@ -740,21 +803,22 @@ from { transform: translateY(50px); opacity: 0; }
                 document.body.style.overflow = 'auto';
             }
         });
-// Animate counters
+        // Animate counters
         function animateCounters() {
             const counters = document.querySelectorAll('[data-count]');
             const speed = 200;
             
             counters.forEach(counter => {
                 const target = +counter.getAttribute('data-count');
-                const count = +counter.innerText;
+                const currentText = counter.innerText;
+                const count = +currentText.replace('+', '');
                 const increment = target / speed;
                 
                 if (count < target) {
-                    counter.innerText = Math.ceil(count + increment);
+                    counter.innerText = Math.ceil(count + increment) + '+';
                     setTimeout(animateCounters, 1);
                 } else {
-                    counter.innerText = target;
+                    counter.innerText = target + '+';
                 }
             });
         }
